@@ -1,0 +1,33 @@
+<html>
+<!-- All Rights Reserved 2021 GitOh.com -->
+    <head>
+        <title id="title"></title>
+        <meta charset="utf-8">
+        <script>
+            const capitalize = (s) => {
+  if (typeof s !== 'string') return ''
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
+        </script>
+        <style>
+            html,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            p {
+                font-family: Montserrat;
+            }
+        </style>
+    </head>
+    <body>
+<script>
+var hostname = window.location.host;
+document.getElementById("title").innerHTML = capitalize((hostname));
+</script>
+Yes, this is indeed the <strong><u><script>document.write(capitalize(window.location.hostname));</script></u></strong> domain.
+        <h3><a href="mailto:cy@xchiux.com">cy@xchiux.com</a></h3>
+        <a href="https://gitoh.com" target="_blank"><span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">GitOh.com Community</span></a>
+    </body>
+</html>
